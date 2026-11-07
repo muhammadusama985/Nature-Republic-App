@@ -29,6 +29,10 @@ workflows:
       flutter: 3.38.1
       xcode: latest
       cocoapods: default
+      # Must match the group name used for CERTIFICATE_PRIVATE_KEY in the
+      # Codemagic UI (App settings > Environment variables > Group).
+      groups:
+        - ios_signing
       vars:
         BUNDLE_ID: "ae.naturerepublic.app"
         APP_VERSION: "1.0.0"
