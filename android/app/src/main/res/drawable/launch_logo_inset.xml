@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/launch_logo"
+    android:insetLeft="58dp"
+    android:insetTop="58dp"
+    android:insetRight="58dp"
+    android:insetBottom="58dp" />

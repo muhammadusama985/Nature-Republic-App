@@ -1,0 +1,28 @@
+name: flutter_customer_app
+description: Customer-side Flutter app for the ecommerce storefront.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_stripe: ^11.5.0
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpeg
+    - assets/images/bg.jpeg
